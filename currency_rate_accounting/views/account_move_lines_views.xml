@@ -7,10 +7,10 @@
         <field name="arch" type="xml">
             <field name="debit" position="after">
                 <field name="currency_rate_enabled" invisible="1"/>
-                <field name="usd_rate" optional="show" attrs="{'invisible': [('currency_rate_enabled', '=', False)]}"/>
-                <field name="debito_usd" optional="show" attrs="{'invisible': [('currency_rate_enabled', '=', False)]}"/>
-                <field name="credito_usd" optional="show" attrs="{'invisible': [('currency_rate_enabled', '=', False)]}"/>
-                <field name="balance_usd" optional="show" attrs="{'invisible': [('currency_rate_enabled', '=', False)]}"/>
+                <field name="usd_rate" optional="show" modifiers="{'invisible': [('currency_rate_enabled', '=', False)]}"/>
+                <field name="debito_usd" optional="show" modifiers="{'invisible': [('currency_rate_enabled', '=', False)]}"/>
+                <field name="credito_usd" optional="show" modifiers="{'invisible': [('currency_rate_enabled', '=', False)]}"/>
+                <field name="balance_usd" optional="show" modifiers="{'invisible': [('currency_rate_enabled', '=', False)]}"/>
             </field>
         </field>
     </record>
@@ -22,10 +22,10 @@
         <field name="arch" type="xml">
             <field name="balance" position="after">
                 <field name="currency_rate_enabled" invisible="1"/>
-                <field name="usd_rate" optional="show" attrs="{'invisible': [('currency_rate_enabled', '=', False)]}"/>
-                <field name="debito_usd" optional="show" attrs="{'invisible': [('currency_rate_enabled', '=', False)]}"/>
-                <field name="credito_usd" optional="show" attrs="{'invisible': [('currency_rate_enabled', '=', False)]}"/>
-                <field name="balance_usd" optional="show" attrs="{'invisible': [('currency_rate_enabled', '=', False)]}"/>
+                <field name="usd_rate" optional="show" modifiers="{'invisible': [('currency_rate_enabled', '=', False)]}"/>
+                <field name="debito_usd" optional="show" modifiers="{'invisible': [('currency_rate_enabled', '=', False)]}"/>
+                <field name="credito_usd" optional="show" modifiers="{'invisible': [('currency_rate_enabled', '=', False)]}"/>
+                <field name="balance_usd" optional="show" modifiers="{'invisible': [('currency_rate_enabled', '=', False)]}"/>
             </field>
         </field>
     </record>
