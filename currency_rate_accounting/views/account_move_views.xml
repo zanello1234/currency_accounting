@@ -7,9 +7,9 @@
         <field name="arch" type="xml">
             <field name="journal_id" position="after">
                 <label for="usd_rate" string="Tasa de cambio del día" 
-                       attrs="{'invisible': [('currency_id', '=', False)]}"/>
+                       modifiers="{'invisible': [('currency_id', '=', False)]}"/>
                 <div name="usd_rate_div" class="o_row"
-                     attrs="{'invisible': [('currency_id', '=', False)]}">
+                     modifiers="{'invisible': [('currency_id', '=', False)]}">
                     <field name="usd_rate" 
                            readonly="1" 
                            force_save="1"
