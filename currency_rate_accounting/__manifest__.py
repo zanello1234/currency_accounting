@@ -20,7 +20,7 @@
 
 {
     'name': 'Currency Rate Accounting',
-    'version': '16.0.1.0.0',
+    'version': '17.0.1.0.0',
     'category': 'Accounting',
     'sequence': 14,
     'summary': 'Ver todas las entradas convertidas a dólares',
