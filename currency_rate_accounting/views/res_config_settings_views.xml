@@ -15,7 +15,7 @@
                         <div class="text-muted">
                             Habilitar módulo Currency Rate Accounting
                         </div>
-                        <div class="mt-2" attrs="{'invisible': [('currency_rate_accounting_enabled', '=', False)]}">
+                        <div class="mt-2" modifiers="{'invisible': [('currency_rate_accounting_enabled', '=', False)]}">
                             <button name="recalculate_usd_amounts" 
                                     type="object" 
                                     string="Recalcular Montos USD" 
